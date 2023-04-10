@@ -14,7 +14,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import MinMaxScaler
 
 # Import database from .xlsx file
-data = pd.read_excel('DataBase_v2.xlsx')
+data = pd.read_excel('DataBase_TCC_MBA.xlsx')
 
 # Data normalization
 scaler = MinMaxScaler()
